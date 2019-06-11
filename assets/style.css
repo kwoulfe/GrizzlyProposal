@@ -1,0 +1,41 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.container-fluid {
+  padding: 0px;
+}
+.jumbotron {
+  height: 34em;
+  background-color: rgba(73, 155, 234, 1);
+}
+.logo {
+  border-radius: 100%;
+  border: solid 2px rgba(255, 255, 255, 0.125);
+  cursor: default;
+  display: inline-block;
+  font-size: 2.5em;
+  height: 2.25em;
+  line-height: 2.25em;
+  text-align: center;
+  width: 2.25em;
+  color: white;
+  margin-top: 2em;
+}
+#jumbotron-text {
+}
+.display-4 {
+  font-size: 2.5em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: white;
+  border-bottom: 1em white;
+  margin-top: 1em;
+}
+#border {
+  border-bottom: solid rgb(134, 177, 233) 1px;
+}
+.lead {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
