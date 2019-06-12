@@ -9,7 +9,7 @@ body {
   padding: 0px;
 }
 .jumbotron {
-  height: 34em;
+  height: 35em;
   background-color: rgba(73, 155, 234, 1);
   margin-bottom: 0;
   border-radius: 0;
@@ -25,15 +25,12 @@ body {
   text-align: center;
   width: 2.25em;
   color: white;
-  margin-top: 2em;
-}
-#jumbotron-text {
+  margin-top: 1em;
 }
 .display-4 {
   font-size: 2.5em;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-
   text-transform: uppercase;
   color: white;
   border-bottom: 1em white;
@@ -45,6 +42,7 @@ body {
 .lead {
   color: white;
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
 }
 #main-content {
   background-color: #2e3141;
@@ -121,4 +119,46 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 1rem;
+}
+.card {
+  text-align: center;
+  background-color: #32383e;
+  color: white;
+  border-radius: 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+.card-img-top {
+  border-radius: 0;
+}
+#footer {
+  background-color: rgba(73, 155, 234, 1);
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+  color: white;
+}
+.contact h3 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.contact p {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.social {
+  text-align: center;
+}
+.social a {
+  color: white;
+}
+i.fab {
+  font-size: 1.5em;
+  padding: 2em 0.5em 2em 0.5em;
+}
+#signature {
+  text-align: center;
 }
