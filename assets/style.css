@@ -9,10 +9,12 @@ body {
   padding: 0px;
 }
 .jumbotron {
-  height: 35em;
   background-color: rgba(73, 155, 234, 1);
   margin-bottom: 0;
   border-radius: 0;
+}
+#jumbotron-text {
+  padding-top: 2.5em;
 }
 .logo {
   border-radius: 100%;
@@ -43,6 +45,7 @@ body {
   color: white;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
+  padding-bottom: 2.5em;
 }
 #main-content {
   background-color: #2e3141;
@@ -127,6 +130,7 @@ body {
   border-radius: 0;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
+  margin-bottom: 2em;
 }
 .card-img-top {
   border-radius: 0;
@@ -134,7 +138,6 @@ body {
 #footer {
   background-color: rgba(73, 155, 234, 1);
   padding-top: 2.5em;
-  padding-bottom: 2.5em;
   color: white;
 }
 .contact h3 {
