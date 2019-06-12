@@ -2,12 +2,17 @@ body {
   margin: 0px;
   padding: 0px;
 }
+.container {
+  max-width: 960px;
+}
 .container-fluid {
   padding: 0px;
 }
 .jumbotron {
   height: 34em;
   background-color: rgba(73, 155, 234, 1);
+  margin-bottom: 0;
+  border-radius: 0;
 }
 .logo {
   border-radius: 100%;
@@ -28,14 +33,88 @@ body {
   font-size: 2.5em;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
+
+  text-transform: uppercase;
   color: white;
   border-bottom: 1em white;
   margin-top: 1em;
 }
 #border {
-  border-bottom: solid rgb(134, 177, 233) 1px;
+  border-bottom: solid lightgray 1px;
 }
 .lead {
   color: white;
   font-family: 'Raleway', sans-serif;
+}
+#main-content {
+  background-color: #2e3141;
+}
+#main {
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+}
+.site-description h2 {
+  text-align: right;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+.site-description h3 {
+  text-align: right;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.15rem;
+  text-transform: uppercase;
+}
+.site-description p {
+  text-align: right;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.pricing h2 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+.pricing h3 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.15rem;
+  text-transform: uppercase;
+}
+.table-dark {
+  background-color: #2e3141;
+  border: solid 0.15em #32383e;
+}
+.total {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.15rem;
+  text-align: right;
+}
+.profile {
+  border-radius: 100%;
+  width: 100%;
+}
+.about h2 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+.about p {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
 }
