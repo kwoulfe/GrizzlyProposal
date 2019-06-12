@@ -49,6 +49,10 @@ body {
 #main-content {
   background-color: #2e3141;
 }
+.deployment {
+  border-radius: 100%;
+  width: 100%;
+}
 #main {
   padding-top: 2.5em;
   padding-bottom: 2.5em;
